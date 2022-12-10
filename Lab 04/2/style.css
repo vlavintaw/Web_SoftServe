@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    margin: 0px;
+}
+thead{
+    position: sticky;
+    top: 0px;
+}
+tr td:first-child
+{
+    position: sticky;
+    left: 0px;
+}
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+td:first-child, th
+{
+    background-color: rgb(152, 227, 251);
+    font-weight: 1000;
+    font-size: 18px;
+}
+tbody tr:nth-child(even)
+{
+    background-color: rgb(231, 231, 231);
+}
