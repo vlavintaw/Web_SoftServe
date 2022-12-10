@@ -1,0 +1,41 @@
++@import url("bootstrap.css");
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 100px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    align-items: center;
+  }
+  h1,h2{
+      text-align: center;
+  }
+  hr{
+      margin: 20px auto;
+  }
+  .red{
+      background-color: rgba(230, 209, 209, 0.765);
+      color: rgb(203, 7, 0);
+  }
+  .codes{
+      background-color: rgba(205, 216, 218, 0.196);
+      color: rgb(224, 32, 32);
+  }
+  .mar{
+      color: #000;        
+      
+  }
+  .tag{
+      color: rgb(0, 115, 230);
+      background-color: rgba(200, 205, 210, 0.701);
+  }
