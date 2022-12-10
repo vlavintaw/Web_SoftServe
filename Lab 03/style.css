@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(237, 232, 216);
+    color: whitesmoke;
+}
+h3{
+    font-size: 38px;
+}
+section{
+    margin-top: 150px;
+}
+.exs_two{
+        margin-bottom: 140px;
+}
+.exs_three{
+    margin-left: 18px;
+    margin-bottom: 140px;
+
+}
+
+
+/* 1 */
+.exs_one ol{
+    background-color: rgb(221, 147, 147);
+    padding: 15px;
+    
+}
+.exs_one li{
+    background-color: rgba(185, 55, 92, 0.565);
+    padding: 15px;
+    margin: 15px;
+    list-style-position: inside;
+
+}
+.exs_one span{
+    background-color: rgba(132, 50, 78, 0.753);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+/* 2 */
+
+.cross::after{
+    content: '✖';
+}
+.text li{
+list-style-position: inside;
+list-style-type: none;
+font-size: 20px;
+margin-right: 150px;
+color: black;
+}
+.text li.col_3{
+background-color: rgba(239, 237, 229, 0.8);
+}
+.text li.col_2{
+    background-color:rgb(251, 238, 222) ;
+}
+.text li.col_1{
+    background-color: rgb(216, 216, 216);
+}
+input{
+    width: 15px;
+}
+
+
+/* 3 */
+
+.exs_three{
+    color: black;
+}
+.gr{
+    color: grey;
+}
+.bl{
+    color: blue;
+}
+p, span{
+    line-height: 0.7px;
+}
