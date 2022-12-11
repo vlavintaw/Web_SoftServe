@@ -1,0 +1,85 @@
+.entrise, .prof, .stand, .bas {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    margin-top: 30px;
+    transition: .5s;
+    background-color: white;
+}
+table button {
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    border-color: transparent;
+    text-transform: uppercase;
+    color: white; 
+}
+tbody tr:first-child {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+}
+tr td {
+    font-weight: 800;
+    padding: 10px;
+
+}
+tbody tr:nth-child(2) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(224, 217, 217);
+}
+
+.entrise:hover, .prof:hover, .stand:hover, .bas:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.entrise {
+    left: 13vw;
+    top: 10px;
+}
+.prof {
+    left: 31vw;
+    top: 10px;
+}
+.stand {
+    left: 48vw;
+    top: 10px;
+}
+.bas {
+    left: 65vw;
+    top: 10px;
+}
+.entrise thead, .prof thead, .stand thead, .bas thead {
+    text-transform: uppercase;
+}
+th {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+td {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.entrise th {border-bottom: 3px solid rgb(234, 129, 164);}
+.prof th {border-bottom: 3px solid rgb(255, 182, 48);}
+.stand th {border-bottom: 3px solid rgb(153, 153, 250);}
+.bas th {border-bottom: 3px solid rgb(55, 255, 178);}
+
+.entrise button {
+    background-color: rgb(233, 149, 177);
+}
+.prof button {
+    background-color: rgb(232, 173, 64);
+}
+.stand button {
+    background-color: rgb(138, 138, 232);
+}
+.bas button {
+    background-color: rgb(32, 220, 148);
+}

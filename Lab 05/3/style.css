@@ -1,0 +1,27 @@
+#rectangle {
+    width: 40vw;
+    height: 10vw;
+    display: block;
+    margin: auto;
+    margin-top: 50vh;
+    border: 5px solid orange;
+    overflow: hidden;
+}
+
+#square {
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    background-color: orange;
+    border: 5px solid orange;
+    animation: slide 2s linear 2s infinite;
+}
+
+@keyframes slide {
+    from {
+        margin-left: -25%;
+    }
+    to {
+        margin-left: 120%;
+    }
+}
