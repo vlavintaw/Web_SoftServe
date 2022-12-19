@@ -1,0 +1,10 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Quote {
+    border: 2px solid rgb(10, 10, 10);
+    margin-top: 15px;
+    background-color:grey;
+    border-radius: 20px;
+  }
