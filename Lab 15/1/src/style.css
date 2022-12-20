@@ -1,0 +1,21 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Quote {
+    border: 2px solid rgb(10, 10, 10);
+    margin-top: 15px;
+    background-color:grey;
+    border-radius: 20px;
+  }
+  .buttonlike,.buttondis {
+    text-align: center;
+    margin: 8px;
+    position: relative;
+    outline: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    opacity: 1;
+    background-color: silver;
+  }

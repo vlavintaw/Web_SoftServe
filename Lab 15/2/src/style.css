@@ -1,0 +1,14 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .card {
+    font-size: 140px;
+    max-height: 155px;
+    color: black;
+  }
+  .cardList {
+    display: flex;
+    flex-direction: column;
+  }
